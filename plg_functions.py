@@ -2,7 +2,7 @@
 
 class PigLatin:
     def encodeit(self,message):
-        vowel_index = 'AaEeIiOUyYy'
+        vowel_index = 'AaEeIiOoUuYy'
         punc_index = "@():,+!'.-+?/"
         message = message.split()
         result = ''
